@@ -1,0 +1,6 @@
+{
+  "ignore": ["./node_modules/**"],
+  "watch": ["src"],
+  "exec": "cross-env PORT=5000 ts-node -r tsconfig-paths/register src/index.ts",
+  "ext": "ts,json"
+}
